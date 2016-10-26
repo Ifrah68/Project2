@@ -4,14 +4,14 @@
       <block type="movement_leftmotor" id="672" inline="true">
         <value name="MOVLEFT">
           <block type="math_number" id="689">
-            <field name="NUM">50</field>
+            <field name="NUM">200</field>
           </block>
         </value>
         <next>
           <block type="movement_rightmotor" id="682" inline="true">
             <value name="MOVRIGHT">
               <block type="math_number" id="696">
-                <field name="NUM">50</field>
+                <field name="NUM">200</field>
               </block>
             </value>
             <next>
