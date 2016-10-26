@@ -1,7 +1,21 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="61" x="178" y="9">
     <next>
-      <block type="movement_stop" id="95"></block>
+      <block type="movement_setmotors" id="372" inline="true">
+        <value name="BOTHMOVLEFT">
+          <block type="math_number" id="379">
+            <field name="NUM">200</field>
+          </block>
+        </value>
+        <value name="BOTHMOVRIGHT">
+          <block type="math_number" id="386">
+            <field name="NUM">200</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_stop" id="95"></block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
