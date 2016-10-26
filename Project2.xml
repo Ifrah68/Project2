@@ -1,8 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="722" inline="false" x="-40" y="-74">
-    <field name="MODE">WHILE</field>
-    <statement name="DO">
-      <block type="movement_forward" id="655"></block>
-    </statement>
+  <block type="movement_forward" id="784" x="-30" y="-42">
+    <next>
+      <block type="controls_whileUntil" id="722" inline="false">
+        <field name="MODE">UNTIL</field>
+        <statement name="DO">
+          <block type="movement_forward" id="655"></block>
+        </statement>
+      </block>
+    </next>
   </block>
 </xml>
