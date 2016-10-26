@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="556" x="0" y="-8">
+  <block type="movement_reverse" id="645" x="20" y="38">
     <next>
       <block type="movement_setmotors" id="599" inline="true">
         <value name="BOTHMOVLEFT">
