@@ -3,9 +3,6 @@
     <next>
       <block type="controls_whileUntil" id="722" inline="false">
         <field name="MODE">UNTIL</field>
-        <statement name="DO">
-          <block type="movement_forward" id="655"></block>
-        </statement>
       </block>
     </next>
   </block>
